@@ -84,21 +84,21 @@ const Footer = () => {
         </div>
       </div>
 
-
-      
       <div className='flex flex-col md:flex-row gap-2 items-center justify-between py-5'>
         <p>
           © {new Date().getFullYear()}{" "}
-          <a href='https://prebuiltui.com'>PrebuiltUI</a>. All rights reserved.
+          <a href='https://prebuiltui.com'>CarRental</a>. All rights reserved.
         </p>
         <ul className='flex items-center gap-4'>
           <li>
-            <a href='#'>Privacy</a> <span></span>
+            <a href='#'>Privacy</a>
           </li>
+          <li>|</li>
           <li>
             <a href='#'>Terms</a>
           </li>
-            <li>
+          <li>|</li>
+          <li>
             <a href='#'>Sitemap</a>
           </li>
         </ul>
