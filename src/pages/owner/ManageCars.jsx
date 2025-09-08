@@ -67,6 +67,7 @@ const ManageCars = () => {
 
                 <td className="flex items-center p-3">
                   <img src={car.isAvaliable ? assets.eye_close_icon : assets.eye_icon} alt="" className="cursor-pointer"/>
+                  <img src={assets.delete_icon} alt="" className="cursor-pointer"/>
                 </td>
               </tr>
             ))}
